@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+/* Navbar */
+nar {
+    display: flex;
+    background-color: cadetblue;
+    justify-content: space-around;
+    padding: 20px 0;
+    color: rgb(0, 0, 0);
+}
+
+nav .logo{
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    letter-spacing: 3px;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    width: 40%;
+    justify-content: space-between;
+}
+
+nav ul li a {
+    color: rgb(78, 102, 22) ;
+    text-decoration: none ;
+    font-size: 0.8cm;
+}
+
+nav ul li a :hover {
+    color: rgb(218, 45, 45);
+}
+
+/* Responsive Breakpoint */
+
+/* ukuran tablet */
+@media screen and (max-width: 768px) {
+    nav ul {
+        width: 50%;
+    }
+}
+
+
